@@ -1,0 +1,120 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3c3e5f5982.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    
+    
+
+    
+
+    Skip to content
+    Search or jump to…
+    
+    Pull requests
+    Issues
+    Marketplace
+    Explore
+     
+    @etoodishvili 
+    LindaGiorgadze
+    /
+    Images_Preview
+    1
+    00
+    Code
+    Issues
+    Pull requests
+    Actions
+    Projects
+    Wiki
+    Security
+    Insights
+    Images_Preview/index.html
+    @LindaGiorgadze
+    LindaGiorgadze image preview test
+    Latest commit 60899d0 3 days ago
+     History
+     1 contributor
+    72 lines (65 sloc)  2.04 KB
+      
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Images Preview</title>
+        <style>
+            .product_preview {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                background-color: antiquewhite;
+            }
+            .left-side {
+                background-color: bisque;
+                display: flex;
+                flex-direction: column;
+                max-width: 30%;
+                justify-content: space-between;
+            }
+            img {
+                margin: 1%;
+                height: 90px;
+            }
+            img:hover {
+                cursor: pointer;
+            }
+            .right-side {
+                display: inline-block;
+                width: 60%;
+                height: 300px;
+                background-position: 50%;
+                background: no-repeat;
+                margin: 10px auto;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="product_preview" >
+            <div class="left-side" >
+                <img src="images/shoes1.jpg" alt="Image1">
+                <img src="images/image5.jpg" alt="Image2">
+                <img src="images/image6.jpg" alt="Image3">
+                <img src="images/image7.jpg" alt="Image4">
+            </div>
+        </div>
+        
+    
+        <script>
+            const productPreview = document.querySelector('.product_preview');
+            const leftSide = document.querySelector('.left-side');
+            const images = document.querySelectorAll('img');
+            console.log(images)
+            const rightSide = document.createElement('div');
+            productPreview.appendChild(rightSide);
+            rightSide.classList.add('right-side');
+            rightSide.style.cssText+= `background-image: url('images/image4.jpg')`;
+    
+            images.forEach(image => {
+                image.addEventListener('click', function() {
+                    let src = image.src;
+                    rightSide.style.cssText+= `background-image: url(${src})`;
+                    
+                })
+            });
+    
+            
+        </script>
+    </body>
+    </html>
+   
