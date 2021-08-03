@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/3c3e5f5982.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+</head>
 
-
+<body>
+    
+    
     <header>
         <div class="container">
             <div class="navbar">
@@ -63,100 +65,169 @@
             </div>
         </div>
     </header>
+ 
+
+
+
+
+
+
+
 
     <section>
-
-        <div class="container-bag">
-            <div class="bag-title">
-                <span class="bag1">ჩემი შეკვეთები</span>
-                <span class="bag2">სულ 2 ერთეული</span>
-            </div>
-            <div class="bag-head">
-                <div class="bag-left">
-                    <div class="bag-title1">
-                        <span>პროდუქტი</span>
-                        <span>ფასი</span>
-                        <span>ერთეული</span>
-                        <span>ჯამი</span>
-                    </div>
-                    <div class="bagimage1" id="bagimage1">
-                        <img src="images/paraisoshoes1.jpg" alt="image">
-                        <div class="image1-title">
-                            <span class="bag-p">Paraiso</span>
-                            <span class="bag-s">ფეხსაცმელი</span>
-                        </div>
-                        <span class="bag-s">65.00ლ</span>
-                        <input class="bag-box" type="number" placeholder="1" >
-                        <span class="bag-s">65.00ლ</span>
-
-                    </div>
-                    <div class="date">
-                        <span> 23.11.20 - 15:00:56</span>
-                          <i class=" far fa-trash-alt"></i>
-                       
-                    </div>
-
-
-                    <div class="bag-image2">
-                        <img src="images/comode 2.jpg" alt="image">
-                        <div class="image1-title">
-                            <span class="bag-p">Paraiso</span>
-                            <span class="bag-s">ფეხსაცმელი</span>
-                        </div>
-                        <span class="bag-s">200.00ლ</span>
-                        <input class="bag-box" type="number" placeholder="1" >
-                        <span class="bag-s">200.00ლ</span>
-
-                    </div>
-                    <div class="date">
-                        <span> 23.11.20 - 15:00:56</span>
-                        <i class="far fa-trash-alt"></i>
-                        
-                    </div>
-
-
-                </div>
-
-                <div class="bag-right">
-
+        <div class="container-sale">
+            <h3 class="title">ქალის ფეხსაცმელი</h3>
             
 
+            <select class="select" name="btn" id="style">
+                <option class="option" value=""> სტილი</option>
+                <option class="option" value=""> კლასიკური</option>
+                <option class="option" value=""> სპორტული</option>
+                <option class="option" value=""> ყოველდღიური</option>
+                
+            </select>
+            <select class="select" name="btn" id="style">
+                <option class="option" value=""> ფერი</option>
+                <option class="option" value=""> თეთრი</option>
+                <option class="option" value=""> წითელი</option>
+                <option class="option" value=""> შავი</option>
+                
+            </select>
+            <select class="select" name="btn" id="style">
+                <option class="option" value=""> მატერია</option>
+                <option class="option" value=""> აბრეშუმი</option>
+                <option class="option" value="">ბამბა</option>
+                <option class="option" value=""> სატინა</option>
+                
+            </select>
+            <select class="select" name="btn" id="style">
+                <option class="option" value=""> სეზონი</option>
+                <option class="option" value=""> ზამთარი</option>
+                <option class="option" value=""> ზაფხული</option>
+                <option class="option" value=""> შემოდგომა</option>
+                
+            </select>
+            <select class="select" name="btn" id="style">
+                <option class="option" value=""> წლები</option>
+                <option class="option" value=""> 2021</option>
+                <option class="option" value=""> 2020</option>
+                <option class="option" value=""> 2019</option>
 
-                    <table class="">
-                        <caption class="cash"> ქვითარი</caption>
-                        <tbody class="tbody">
-                        <tr class="order1">
-                            <th > დადასტურებული რაოდენობა</th>
-                            <th> პროდუქტის ჯამური თანხა</th>
-                            <th>  მიტანის საფასური</th>
-                            <th>  ჯამური საფასური</th>
-                        </tr>
-                        <tr class="order2">
-                            <td class="bag-box"> <span>2</span></td>
-                            <td class="number2" >265.00ლ</td>
-                            <td class="number3" >5.00ლ</td>
-                            <td>
-                                <div class="price1">
-                                    <span class="number4">270.00</span>
-                                    <span class="number5" >ლ</span>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                        
-
-                    </table>
-                   
-                    <button class="btn" type="button">ყიდვის გაგრძელება</button>
-
-
-                </div>
-
-            </div>
+                
+            </select>
         </div>
+
+
 
     </section>
 
+
+    <div class="container-shoes">
+        <div class="wrapper ">
+            <a class="image-block">
+                <img src="images/image2.jpg" alt="image">
+                <span class="title1">Comode<span>
+                <div class="price">
+                    <span class="title2">165.00 ლ</span>
+                    <span class="title3">229.00 ლ</span>
+                </div>
+
+            </a>
+            
+            <a class="image-block" href="page3.html">
+                <img class="img" src="images/image1.jpg" alt="image">
+                <span class="title1">Paraiso</span>
+                <div class="price">
+                    <span class="title2">65.00 ლ</span>
+                    <span class="title3">129.00 ლ</span>
+                </div>
+            </a>
+            <a class="image-block">
+                <img src="images/image3.jpg" alt="image">
+                <span class="title1">Paraiso</span>
+                <div class="price">
+                    <span class="title2">100.00 ლ</span>
+                    <span class="title3">190.00 ლ</span>
+                </div>
+
+            </a>
+            <a class="image-block">
+                <img src="images/image4.jpg" alt="image">
+                <span class="title1">კაბა.KABA</span>
+                <div class="price">
+                    <span class="title2">65.00 ლ</span>
+                    <span class="title3">129.00 ლ</span>
+                </div>
+
+            </a>
+            <a class="image-block">
+                <img src="images/image5.jpg" alt="image">
+                <span class="title1">კაბა.KABA</span>
+                <div class="price">
+                    <span class="title2">65.00 ლ</span>
+                    <span class="title3">129.00 ლ</span>
+                </div>
+
+            </a>
+            <a class="image-block">
+                <img src="images/image6.jpg" alt="image">
+                <span class="title1">Paraiso</span>
+                <div class="price">
+                    <span class="title2">65.00 ლ</span>
+                    <span class="title3">129.00 ლ</span>
+                </div>
+
+            </a>
+            <a class="image-block">
+                <img src="images/image7.jpg" alt="image">
+                <span class="title1">Comode</span>
+                <div class="price">
+                    <span class="title2">65.00 ლ</span>
+                    <span class="title3">129.00 ლ</span>
+                </div>
+
+            </a>
+            <a class="image-block">
+                <img src="images/image8.jpg" alt="image">
+                <span class="title1">Comode</span>
+                <div class="price">
+                    <span class="title2">65.00 ლ</span>
+                    <span class="title3">129.00 ლ</span>
+                </div>
+
+            </a>
+            <a class="image-block">
+                <img src="images/image9.jpg" alt="image">
+                <span class="title1">Comode</span>
+                <div class="price">
+                    <span class="title2">65.00 ლ</span>
+                    <span class="title3">129.00 ლ</span>
+                </div>
+
+            </a>
+
+
+
+
+        </div>
+        
+
+        <div style="text-align:center">
+            <a href="sale.html">
+                <span class="dot" onclick="currentSlide(1)"></span>
+            </a>
+            <a href="sale1.html"> 
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </a>
+            <a href="sale2.html">
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </a>
+
+          </div>
+    
+    </div>
+
+    </section>
 
 
 
@@ -218,14 +289,17 @@
                 <p>წარმოებულია საქართველოში</p>
                 <p>2020</p>
             </div>
+            
 
 
 
 
         </div>
     </footer>
+    
 
     <script src="script.js"></script>
-    </body>
+</body>
 
 </html>
+

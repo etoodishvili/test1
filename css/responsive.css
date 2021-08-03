@@ -1,15 +1,28 @@
 
 
-@media (max-width:768px) {
+@media (max-width:480px) {
     .container{
-        
+        height: 40px;
     }
     .navbar-links{
         display:none;
         
     }
+    .logo img{
+        width: 94px;
+    }
     .toggle-button{
         display:block;
+        top: 45px;
+        font-size: 20px;
+      
+    }
+    .icons{
+        top: 40px;
+    }
+    .icon{
+        width: 20px;
+       
     }
     .icon1{
        display: none;
@@ -32,13 +45,16 @@
         background-color: white;
     }
     .container1{
-        width: 328px;
+        max-width: 328px;
+        width: 100%;
         height: 650px;
+        padding: 0 13px;
 
         flex-direction: column;
     }
     .test{
-        width: 328px;
+        max-width: 328px;
+        width: 100%;
         height: 100px;
         display: block;
         border-radius: 10px;

@@ -399,7 +399,7 @@
 .price{
     display: flex;
    align-items: center;
-   margin-bottom: 61px;
+  
 }
 .title1{
     font-size: 24px;
@@ -548,6 +548,9 @@
     font-weight: bold;
     margin-right:14px;
     
+}
+.price1{
+ margin-bottom: 61px;
 }
 .sizes{
     display: flex;
