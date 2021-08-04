@@ -280,13 +280,12 @@
 }
 
 .left{
-    display: flex;
-    flex-direction: column;
     margin-right: 148px;
     
 }
 
 .social-icons{
+    display: flex;
     margin-top: 46px;
 }
 .media{
@@ -399,7 +398,7 @@
 .price{
     display: flex;
    align-items: center;
-  
+ 
 }
 .title1{
     font-size: 24px;
@@ -758,15 +757,15 @@
     font-size: 22px;
     color: #C1C1C1;
 }
-.fa-thumbs-up:hover{
+/* .fa-thumbs-up:hover{
     color: green;
-}
-.fa-thumbs-down:hover{
+} */
+/* .fa-thumbs-down:hover{
     color:red
-}
-.fa-reply:hover{
+} */
+/* .fa-reply:hover{
     color:#E88547;
-}
+} */
 .fas-box{
     width: 139px;
     display: flex;
