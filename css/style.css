@@ -51,7 +51,7 @@
     position: absolute;
     top:60px;
     right:0;
-    padding:0 10px;
+    padding:0 15px;
    
 } 
 .icon{
@@ -122,6 +122,9 @@
 }
 .dropdown-color{
     color: black;
+}
+.fa-sort-down{
+    display: none;
 }
 /* container1 style */
 .container1{
@@ -288,6 +291,9 @@
     display: flex;
     margin-top: 46px;
 }
+.social-icons1{
+    display: none;
+}
 .media{
     color:#707070;
     font-size: 30px;
@@ -438,9 +444,6 @@
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-    background-color:black;
-  }
 
 
 /* cotainer3 */
