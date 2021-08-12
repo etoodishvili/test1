@@ -32,6 +32,7 @@
     }
     .icon1 {
         margin: 0 16px;
+    }
 }
 
 @media (max-width:970px){
@@ -46,6 +47,7 @@
     }
     .icon1 {
         margin: 0 10px;
+    }
 }
 
 @media (max-width:900px){
@@ -245,6 +247,16 @@
     .box li{
         white-space: nowrap;
     }
+    .last{
+        display: block;
+        margin-top: 17px;
+     
+    }
+    .last p{
+        display: flex;
+        justify-content: center;
+        margin-top: 11px;
+    }
 
 
 }
@@ -256,6 +268,7 @@
     .box li{
        white-space: nowrap;
     }
+   
 }
 
 
@@ -311,18 +324,102 @@
 }
 
 /* sale */
-@media (max-width:480px){
+@media(max-width:1300px){
     .select{
         display: none;
     }
-    .container-shoes{
-        padding:0 18px;
+
+    .image-block{
+        width:360px;
+    }
+    .image-block img{
+        width:360px;
+    }
+    .wrapper{
+        padding:0 40px;
+    }
+    .dot{
+        width: 22px;
+        height: 22px;
+    }
+
+
+}
+
+@media(max-width:1200px){
+    .image-block{
+        width:300px;
+    }
+    .image-block img{
+        width:300px;
+    }
+}
+@media(max-width:1050px){
+    .image-block{
+        width:270px;
+    }
+    .image-block img{
+        width:270px;
+        border-radius: 10px;
+    }
+    .title1{
+        font-size: 20px;
+        padding: 0;
+    }
+    .price span{
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .dot{
+        width: 20px;
+        height: 20px;
+        margin-right: 22px;
+    }
+
+}
+@media(max-width:970px){
+    .image-block{
+        width:240px;
+    }
+    .image-block img{
+        width:240px;
+        border-radius: 10px;
+    }
+    .title1{
+        font-size: 18px;
+        padding: 0;
+    }
+    .price span{
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+}
+
+@media(max-width:870px){
+    .image-block{
+        width:200px;
+    }
+    .image-block img{
+        width:200px;
+        border-radius: 10px;
+    }
+    .dot{
+        width: 18px;
+        height: 18px;
+        margin-right: 18px;
+    }
+
+}
+
+@media(max-width:750px){
+    .image-block{
+        max-width:180px;
+        
     }
     .image-block img{
         width:160px;
-    }
-    .image-block{
-        width: 50%;
+        border-radius: 10px;
     }
     .title1{
         font-size: 14px;
@@ -332,7 +429,54 @@
         font-size: 12px;
         margin-left: 0;
     }
+
+}
+@media(max-width:640px){
+    .image-block{
+        width:160px;
+        margin-right: 5px;
+    }
+    .wrapper{
+        padding:0 20px;
+    }
+    .dot{
+        width: 15px;
+        height: 15px;
+        margin-right: 15px;
+    }
+} 
+
+@media(max-width:555px){
     .image-block1{
         display: none;
+        margin-right: 10px;
+    }
+    .wrapper{
+        padding:0 50px;
+    }
+
+}
+@media(max-width:450px){
+    .wrapper{
+        padding:0 20px;
+    }
+    .dot{
+        width: 12px;
+        height: 12px;
+        margin-right: 10px;
     }
 }
+@media(max-width:390px){
+    .image-block{
+        width: 140px;
+    }
+    .image-block img{
+        width: 140px;
+    }
+    .wrapper{
+        padding:0 5px;
+    }
+}
+
+
+

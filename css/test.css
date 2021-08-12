@@ -1,0 +1,25 @@
+@media (max-width:800px){
+    .select{
+        display: none;
+    }
+    .container-shoes{
+        padding:0 18px;
+    }
+    .image-block img{
+        width:160px;
+    }
+    .image-block{
+        width: 50%;
+    }
+    .title1{
+        font-size: 14px;
+        padding: 0;
+    }
+    .price span{
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .image-block1{
+        display: none;
+    }
+}
