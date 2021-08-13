@@ -477,6 +477,259 @@
         padding:0 5px;
     }
 }
+/* page3 */
+@media(max-width:1300px) {
+    .container3{
+       padding:0 20px;
+
+    }
+    .top{
+        justify-content: space-around;
+    }
+    .top-side{
+        width: 525px;
+        height: 500px;
+    }
+    .bottom-side{
+        width: 500px;
+    }
+    .little1{
+        width: 128px;
+        height: auto;
+        margin-right: 5px;
+    }
+    .right-block{
+        width: 480px;
+        height: auto;
+    }
+  .product_preview{
+         height: auto;
+  }
+  .size{
+    margin-right: 10px;
+}
+.sizes :nth-child(3){
+    margin-right: 10px;
+   
+}
+.sizes :nth-child(5){
+    margin-right: 10px;
+   
+}
+  
+}
+@media(max-width:1100px) {
+    .top-side{
+        width: 415px;
+        height: 400px;
+    }
+    .bottom-side{
+        width: 400px;
+    }
+    .little1{
+        width: 100px;
+        height: auto;
+        margin-right: 5px;
+    }
+    .right-block{
+        width: 300px;
+        height: 340px;
+        margin-top: 20px;
+    }
+    .product_preview{
+        height: auto;
+    }
+    .size{
+        width: 45px;
+        height: 37px;
+        padding:6px;
+        margin-right: 5px;
+        font-size: 22px;
+    }
+    .sizes :nth-child(3){
+        width: 45px;
+        height: 37px;
+        padding:6px;
+        margin-right: 5px;
+        font-size: 22px;
+    }
+    .sizes :nth-child(5){
+        width: 45px;
+        height: 37px;
+        padding:6px;
+        margin-right: 5px;
+        font-size: 22px;
+    }
+    .title7{
+        width: 130px;
+        padding: 12px;
+    }
+    .title8{
+        width: 130px;
+        padding: 10px 20px 10px 30px;
+    }
+    .title4{
+        font-size: 30px;
+    }
+    .title5{
+        font-size: 20px;
+    }
+    .middle-bg1 p{
+        margin-top: 15px;
+        font-size: 14px;
+
+    }
+    .middle-bg2 p{
+        margin-top: 15px;
+        font-size: 14px;
+
+    }
+    .middle :nth-child(1){
+        font-size: 20px;
+     }
+     .middle :nth-child(2){
+         font-size: 30px;
+         font-weight: bold;
+         }
+     
+     .middle :nth-child(3){
+         font-size: 20px;
+         margin-right: 65px;
+         font-weight: bold;
+         margin-left: 125px;
+     }
+     .middle :nth-child(4){
+         font-size: 30px;
+         font-weight: bold;
+         color: #707070;
+         }
+     
+     .middle :nth-child(5){
+         font-size: 20px;
+         font-weight: bold;
+         margin-left: 152px;
+         margin-left: 27px;
+     }
+     .middle :nth-child(6){
+         font-size: 30px;
+         font-weight: bold;
+         width: 70px;
+         height: 70px;
+         border-radius: 100px;
+         border: 1px solid #E6823C;
+         padding: 50px 45px 60px 45px;
+         }
+
+}
+@media(max-width:820px){
+    .bottom-side{
+        width: 315px;
+    }
+    .bottom-side :nth-child(4){
+        display: none;
+    }
+    .top-side{
+        width: 315px;
+        height: 320px;
+    }
+    .title7{
+        width: 90px;
+        height: 50px;
+        font-size: 16px;
+        padding: 12px;
+    }
+    .title8{
+        width: 90px;
+        height: 50px;
+        font-size: 16px;
+        padding: 10px 15px 10px 22px;
+    }
+    .title4{
+        font-size: 25px;
+    }
+    .title5{
+        font-size: 18px;
+    }
+    .title6{
+        font-size: 20px;
+    }
+    .middle-bg1 p{
+        margin-top: 15px;
+        font-size: 14px;
+
+    }
+    .middle-bg2 p{
+        margin-top: 15px;
+        font-size: 14px;
+
+    }
+}
 
 
-
+@media(max-width:700px){
+    .top{
+        display: block;
+    }
+    .bottom-side{
+        display: none;
+    }
+    .star1{
+        display: none;
+    }
+    .right-block{
+        margin: 0 auto;
+    }
+    .middle-bg{
+        display:none;
+    }
+    .sizes{
+        display: none;
+    }
+    .bottom-bg1{
+    flex-direction: column;
+    }
+    .title7{
+        width: 328px;
+        height: 50px;
+        padding: 11px 103px 14px 123px;
+        margin-bottom: 26px;
+        margin-top: 25px;
+    }
+    .title8{
+        width: 328px;
+        height: 50px;
+        padding:  11px 128px 15px 138px;;
+    }
+    .star-mobile{
+        display: block;
+        margin-top: 38px;
+    }
+    .middle-bgmobile{
+        display: block;
+        display: flex;
+    }
+    .sizes-mobile{
+        display: block;
+        margin-top: 31px;
+    }
+    .size{
+        width: 36px;
+        height: 31px;
+        font-size: 16px;
+    }
+    .sizes :nth-child(3){
+        width: 36px;
+        height: 31px;
+        font-size: 16px;
+    }
+    .sizes :nth-child(5){
+        width: 36px;
+        height: 31px;
+        font-size: 16px;
+    }
+    
+    .middle{
+        margin-top: 250px;
+    }
+    
+}
