@@ -1015,7 +1015,8 @@
     font-size: 25px;
 }
 .btn{
-    width: 424px;
+    max-width: 424px;
+    width: 100%;
     height: 96px;
     background-color: #E88547;
     font-size: 30px;
