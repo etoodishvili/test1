@@ -10,9 +10,6 @@
     .nav-a{
         white-space: nowrap;
     }
-    .nav-li{
-        padding: 12px;
-    }
     .icon{
         width: 30px;
     }
@@ -169,9 +166,6 @@
         display: block;
     }
 
-   
-
-
 
 
     .container1{
@@ -290,7 +284,7 @@
         margin-right: 0;
         padding-top: 11px;
     }
-    .box li{
+    .box ul{
         display: none;
     }
     .left img{
@@ -301,10 +295,14 @@
     }
     .box{
         padding:0;
+        width: 328px;
+        margin: 0 auto;
+      
     }
     .box h3{
         color:black ;
         font-size: 14px;
+        margin-bottom: 10px;
     }
     .last{
         display: block;
@@ -321,6 +319,29 @@
         display: flex;
         justify-content: center;
     }
+    .title-box{
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #b1acac;
+        margin-bottom: 15px;
+    }
+    .fa-sort-down{
+        display: block;
+    }
+    .box:hover .ul-box{
+        display: block;
+    }
+
+}
+@media(max-width:390px){
+    .title-box{
+        width: 260px;
+    }
+    .box{
+        width: 280px;
+    }
+
 }
 
 /* sale */
@@ -577,6 +598,10 @@
 @media(max-width:720px) {
     .bottom{
         display: block;
+        padding: 10px;
+    }
+    .last-section{
+        padding: 10px;
     }
     .block-bg{
         justify-content: center;
@@ -853,7 +878,7 @@
     }
     .middle{
       flex-direction: column;
-      background-color: bisque;
+      background-color: #eaeaea;
       align-items: flex-start;
       height:auto;
     }
@@ -889,12 +914,18 @@
     .container3{
         padding:0;
     }
+    .middle{
+        padding:0 15px
+    }
+    .middle2{
+        margin:0;
+    }
    
 }
 /* bag */
 @media(max-width:1300px){
     .container-bag{
-        padding:0 20px;
+        padding:61px 20px 0 20px;
     }
     .order1{
         font-size: 16px;
@@ -936,6 +967,99 @@
     .bagimage1{
         margin-right: px;
     }
+    .nav-li{
+        display: felx;
+    }
 
 
+}
+@media(max-width:1230px){
+    .bag-title1 :nth-child(1){
+        margin-right: 150px;
+    }
+    .image1-title{
+        margin-right: 0;
+    }
+    .bag-p {
+        font-size: 25px;
+    }
+    .bag-s{
+        font-size: 15px;
+    }
+    .fa-trash-alt{
+        font-size: 25px;
+    }
+    .bag-title1 span{
+        font-size: 20px;
+    }
+    .cash{
+        font-size: 20px;
+    }
+    .btn{
+        width:190px;
+        height: 50px;
+        font-size: 15px;
+    }
+}
+@media(max-width:950px){
+    .bagimage1 img{
+        width: 150px;
+    }
+    .bag-image2 img{
+        width: 150px;
+    }
+    .order1{
+        font-size: 12px;
+    }
+    .order1 :nth-child(1){
+        font-size: 12px;
+    }
+    .order1 :nth-child(2){
+        font-size: 12px;
+    }
+    .order1 :nth-child(3){
+        font-size: 12px;
+    }
+    .order1 :nth-child(4){
+        font-size: 12px;
+    }
+    .bag-box{
+        font-size: 14px;
+        width: 40px;
+        height: 35px;
+        padding-top: 5px;
+    }
+   .number2{
+       font-size: 14px; 
+   }
+   .number3{
+       font-size: 14px; 
+   }
+   .number4{
+       font-size: 14px; 
+    }
+    .btn{
+        width: 200px;
+        font-size: 18px;
+    }
+    .bag-p{
+        font-size: 20px;
+    }
+    .bag-s{
+        font-size: 16px;
+    }
+    .bag-title1 :nth-child(1){
+        margin-right:150px;
+    }
+}
+@media(max-width:850px){
+    .bagimage1 img{
+        width: 130px;
+    }
+    .bag-title1 :nth-child(1){
+        margin-right: 100px;
+    }
+    .bag-title1 span{
+        font-size: 16px;
+    }
 }

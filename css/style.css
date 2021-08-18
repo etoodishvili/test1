@@ -19,6 +19,9 @@
     padding: 0 10px;
     
 }
+.eto{
+    display: flex;
+}
 
 .nav-ul{
     display: flex;
@@ -86,9 +89,10 @@
 .dropdown-ul{
     position: absolute;
     background-color:#FFFFFF;
-    width: 147px;
+    width: 110px;
     height: 165px;
-   margin-top:16px;
+    margin-top:12px;
+    box-shadow: 0 3px 3px 3px black;
     
 }
 .dropdown1{
@@ -96,19 +100,17 @@
     left: 100%;
     top: 0;
     position: absolute;
-
 }
 .dropdown-li:hover .dropdown1{
     display: block;
-
 } 
 
 .dropdown-ul1{
     width:147px;
     height:107px;
     margin-top: 20px;
-    margin-left: 10px;
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
+    box-shadow: 0 3px 3px 3px black;
 }
 
 .dropdown-li1{
@@ -192,7 +194,7 @@
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    white-space: nowrap;
+  
     font-size: 70px;
     margin-left: 5%;
     color: #FFFFFF;
@@ -653,6 +655,10 @@
         display: flex;
         align-items: center;
     }
+    .middle2{
+        width: 200px;
+        margin: 0 auto;
+    }
     .sell{
         margin-right: 65px;
         font-size: 25px;
@@ -925,11 +931,15 @@
    
 
 }
+.date{
+    display: flex;
+    justify-content: space-between;
+}
 .date span{
     padding-top: 15px;
     font-size: 15px;
     font-weight: bold;
-    margin-right: 600px;
+    white-space: nowrap;
 }
 .fa-trash-alt{
     font-size: 40px;
@@ -948,8 +958,9 @@
 }
 
 .bag-head{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+   grid-template-columns: 60% 35%;
+   grid-gap: 5%;
 }
 .order{
     display: flex;
@@ -1081,5 +1092,4 @@
     opacity: 0;
   }
   
-  
-
+ 
