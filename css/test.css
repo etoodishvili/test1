@@ -1,25 +1,302 @@
-@media (max-width:800px){
-    .select{
-        display: none;
-    }
-    .container-shoes{
-        padding:0 18px;
-    }
-    .image-block img{
-        width:160px;
-    }
-    .image-block{
-        width: 50%;
-    }
-    .title1{
-        font-size: 14px;
-        padding: 0;
-    }
-    .price span{
-        font-size: 12px;
-        margin-left: 0;
-    }
-    .image-block1{
-        display: none;
-    }
-}
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3c3e5f5982.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <a class="logo" href="index.html"> <img src="images/logo.png" alt="logo"> </a>
+
+                <nav class="navbar-links" id="navbarlinks">
+                    <ul class="nav-ul">
+                        <li class="nav-li"> <a class="nav-a" href="#">ჩვენს შესახებ</a></li>
+                        <li class="nav-li"> <a class="nav-a" href="#">ბრენდები</a></li>
+                        <li class="nav-li"> <a class="nav-a" href="sale.html">კოლექციები</a>
+                            <div class="dropdown">
+                                <ul class="dropdown-ul">
+                                    <li class="dropdown-li"> <a class="dropdown-color" href="sale.html"> ქალი</a>
+                                        <div class="dropdown1">
+                                            <ul class="dropdown-ul1">
+                                                <li class="dropdown-li1"> <a class="dropdown-color"
+                                                        href="sale.html">ტანსაცმელი</a> </li>
+                                                <li class="dropdown-li2"> <a class="dropdown-color"
+                                                        href="sale.html">ფეხსაცმელი</a> </li>
+                                            </ul>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li class="dropdown-li"> კაცი</li>
+                                    <li class="dropdown-li"> ბავშვი</li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nav-li"> <a class="nav-a" href="page3.html">შესვლა</a></li>
+                        <li class="nav-li"> <a class="nav-a" href="#">კონტაქტი</a></li>
+                        <li class="nav-li"> <a class="nav-a" href="#">სამოსი ქირით</a></li>
+                    </ul>
+                </nav>
+                <div class="icons">
+                    <img class="icon" src="images/icon1.svg" alt="icon">
+                    <img class="icon icon1" src="images/icon2.svg" alt="icon">
+                    <img class="icon" src="images/icon3.svg" alt="icon">
+                </div>
+
+
+
+                <div class="toggle-button" id="togglebutton">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section>
+
+        <div class="container-bag">
+            <div class="bag-title">
+                <span class="bag1">ჩემი შეკვეთები</span>
+                <span class="bag2">სულ 2 ერთეული</span>
+            </div>
+            <div class="bag-head">
+                <div class="bag-left">
+                    <div class="bag-title1">
+                        <span>პროდუქტი</span>
+                        <span>ფასი</span>
+                        <span>ერთეული</span>
+                        <span>ჯამი</span>
+                    </div>
+                    <div class="bagimage1">
+                        <img src="images/paraisoshoes1.jpg" alt="image">
+                        <div class="image1-title">
+                            <span class="bag-p">Paraiso</span>
+                            <span class="bag-s">ფეხსაცმელი</span>
+                        </div>
+                        <span class="bag-s">65.00ლ</span>
+                        <input class="bag-box" type="number" placeholder="1">
+                        <span class="bag-s">65.00ლ</span>
+
+                    </div>
+                    <div class="date">
+                        <span> 23.11.20 - 15:00:56</span>
+                        <i class=" far fa-trash-alt"></i>
+
+                    </div>
+
+
+                    <div class="bag-image2">
+                        <img src="images/comode 2.jpg" alt="image">
+                        <div class="image1-title">
+                            <span class="bag-p">Paraiso</span>
+                            <span class="bag-s">ფეხსაცმელი</span>
+                        </div>
+                        <span class="bag-s">200.00ლ</span>
+                        <input class="bag-box" type="number" placeholder="1">
+                        <span class="bag-s">200.00ლ</span>
+
+                    </div>
+                    <div class="date">
+                        <span> 23.11.20 - 15:00:56</span>
+                        <i class="far fa-trash-alt"></i>
+
+                    </div>
+
+
+                </div>
+
+                <div class="bag-right">
+
+
+
+
+                    <table class="">
+                        <caption class="cash"> ქვითარი</caption>
+                        <tbody class="tbody">
+                            <tr class="order1">
+                                <th> დადასტურებული რაოდენობა</th>
+                                <th> პროდუქტის ჯამური თანხა</th>
+                                <th> მიტანის საფასური</th>
+                                <th> ჯამური საფასური</th>
+                            </tr>
+                            <tr class="order2">
+                                <td class="bag-box"> <span>2</span></td>
+                                <td class="number2">265.00ლ</td>
+                                <td class="number3">5.00ლ</td>
+                                <td>
+                                    <div class="price1">
+                                        <span class="number4">270.00</span>
+                                        <span class="number5">ლ</span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+
+
+                    </table>
+
+                    <button class="btn" type="button">ყიდვის გაგრძელება</button>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="bag-titlemob">
+                <span> <i class="fas fa-arrow-left"></i></span>
+                <span class="bag2">კალათა</span>
+                <span><i class="fas fa-search"></i></span>
+            </div>
+        <div class="bag-bag">
+            <div class="bagimage1">
+                <img src="images/paraisoshoes1.jpg" alt="image">
+                <div class="image1-title">
+                    <span class="bag-p">Paraiso</span>
+                    <span class="bag-s">ფეხსაცმელი</span>
+                    <div class="bag-mobile">
+                        <div class="column1">
+                            <span>ფერი:</span>
+                            <span>ზომა:</span>
+                            <span>რაოდ:</span>
+                        </div>
+                        <div class="column2">
+                            <span>ვერცხლისფერი</span>
+                            <span>38</span>
+                            <div class="container">
+                                <div class="wrapper">
+                                  <button id="min">-</button>
+                                  <input type="number" value="0"/>
+                                  <button id="plus">+</button>
+                                </div>
+                              </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <span class="bag-s">200.00ლ</span>
+
+            </div>
+
+            <div class="bagimage1">
+                <img src="images/comode 2.jpg" alt="image">
+                <div class="image1-title">
+                    <span class="bag-p">Comode</span>
+                    <span class="bag-s">პალტო</span>
+                    <div class="bag-mobile">
+                        <div class="column1">
+                            <span>ფერი:</span>
+                            <span>ზომა:</span>
+                            <span>რაოდ:</span>
+                        </div>
+                        <div class="column2">
+                            <span>ყავისფერი</span>
+                            <span>M</span>
+                            <div class="container">
+                                <div class="wrapper">
+                                  <button id="min">-</button>
+                                  <input type="number" value="0"/>
+                                  <button id="plus">+</button>
+                                </div>
+                              </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <span class="bag-s">200.00ლ</span>
+
+            </div>
+
+            
+        </div>
+
+    </section>
+
+
+
+
+    <footer>
+        <div class="container-footer">
+            <div class="footer-wrapper">
+                <div class="left">
+                    <img src="images/logo.png" alt="logo">
+                    <div class="social-icons">
+                        <a class="media" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="media" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="media" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <nav class="right">
+                    <div class="box">
+                        <h3>მენიუ</h3>
+                        <ul>
+                            <li><a href="#"></a> ჩვენს შესახებ</li>
+                            <li><a href="#"></a> ქირის წესები</li>
+                            <li><a href="#"></a> ჩვენს შესახებ</li>
+                            <li><a href="#"></a> ქირის წესები </li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h3>სერვისები</h3>
+                        <ul>
+                            <li><a href="#"></a> სასაჩუქრე ბარათი</li>
+                            <li><a href="#"></a> მიტანის სერვისი</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h3>დახმარება</h3>
+                        <ul>
+                            <li><a href="#"></a> შეკვეთის შესახებ</li>
+                            <li><a href="#"></a> დაბრუნება</li>
+                            <li><a href="#"></a> მოგვწერე დახმარებისთვის </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h3>წესები</h3>
+                        <ul>
+                            <li><a href="#"></a> საავტორო უფლებები</li>
+                            <li><a href="#"></a>მხარეთა უფლება მოვალეობები</li>
+                        </ul>
+                    </div>
+
+
+                </nav>
+            </div>
+
+            <div class="last">
+                <p>წარმოებულია საქართველოში</p>
+                <p>2020</p>
+            </div>
+
+
+
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    </body>
+
+</html>
