@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+</head>
 
+<body>
 
-    <header>
+    <header class="none">
         <div class="container">
             <div class="navbar">
                 <a class="logo" href="index.html"> <img src="images/logo.png" alt="logo"> </a>
@@ -156,10 +158,10 @@
             </div>
         </div>
         <div class="bag-titlemob">
-                <span> <i class="fas fa-arrow-left"></i></span>
-                <span class="bag2">კალათა</span>
-                <span><i class="fas fa-search"></i></span>
-            </div>
+            <span> <i class="fas fa-arrow-left"></i></span>
+            <span class="bag2">კალათა</span>
+            <span><i class="fas fa-search"></i></span>
+        </div>
         <div class="bag-bag">
             <div class="bagimage1">
                 <img src="images/paraisoshoes1.jpg" alt="image">
@@ -175,20 +177,21 @@
                         <div class="column2">
                             <span>ვერცხლისფერი</span>
                             <span>38</span>
-                            <div class="container">
-                                <div class="wrapper">
-                                  <button id="min">-</button>
-                                  <input type="number" value="0"/>
-                                  <button id="plus">+</button>
+                            <div class="counter-container">
+                                <div class="counter-wrapper">
+                                    <i class="fas fa-chevron-left"></i>
+                                    <input type="number" value="1" />
+                                    <i class="fas fa-chevron-right"></i>
                                 </div>
-                              </div>
+                            </div>
+                            
                         </div>
 
                     </div>
 
                 </div>
 
-                <span class="bag-s">200.00ლ</span>
+                <span class="bag-s">65.00ლ</span>
 
             </div>
 
@@ -206,13 +209,14 @@
                         <div class="column2">
                             <span>ყავისფერი</span>
                             <span>M</span>
-                            <div class="container">
-                                <div class="wrapper">
-                                  <button id="min">-</button>
-                                  <input type="number" value="0"/>
-                                  <button id="plus">+</button>
+                            <div class="counter-container">
+                                <div class="counter-wrapper">
+                                    <i class="fas fa-chevron-left"></i>
+                                    <input type="number" value="1" />
+                                    <i class="fas fa-chevron-right"></i>
                                 </div>
-                              </div>
+                            </div>
+                            
                         </div>
 
                     </div>
@@ -222,8 +226,29 @@
                 <span class="bag-s">200.00ლ</span>
 
             </div>
-
+            <div class="dev-a">
+                <div class="dev-a-dev">
+                    <span> ჯამური საფასური</span>
+                    <span>დამატებითი ხარჯის გარეშე</span>
+                </div>
+                <div class="div-n">
+                    <span> 270.00</span>
+                    <span>ლ</span>
+                </div>
+                  
+                
+                  
+                
+            </div>
+            <div class="div-a"> 
+               
+            </div>
+            <a class="div-a" href="check.html">
+                <button class="div-btn" type="button">ყიდვის გაგრძელება</button>
+            </a>
             
+
+
         </div>
 
     </section>
@@ -296,7 +321,7 @@
         </div>
     </footer>
 
-    <script src="counter.js"></script>
-    </body>
+    <script src="script.js"></script>
+</body>
 
 </html>

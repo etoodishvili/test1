@@ -89,6 +89,7 @@ function checkButton() {
   }
 }
 
+
 // Set button when first loaded
 window.addEventListener('DOMContentLoaded', checkButton)
 
